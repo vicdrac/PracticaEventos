@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Validación</h1>
+    <form id="form">
+        <label for="email">Email:</label>
+        <input type="text" class="email">
+        <div class="email-error" style="display: none;">El email debe tener el formato: xxxx@yyyy.zzzz</div>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" class="password">
+        <div class="password-error" style="display: none;">El password debe tener entre 8 y 10 caracteres.</div>
+        <br><br>
+        <button type="submit" class="submit" disabled>Enviar</button>
+    </form>
+    <script src="ej2.js"></script>
+</body>
+</html>
